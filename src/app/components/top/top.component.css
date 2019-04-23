@@ -1,0 +1,54 @@
+.header-content .list-social li i {
+    font-size: 20px;
+}
+ul{
+    margin-left: 28%;
+    margin-top: 15px;
+    display: flex;
+}
+
+.profile-img{
+    text-align: center;
+
+}
+.profile-display{
+    text-align: center;
+}
+
+.type2{
+    display: none;
+}
+
+
+@media (max-width: 450px){
+
+    .type2 .list-unstyled {
+        padding-left: 41%!important;
+    }
+
+}
+
+
+@media (max-width: 1000px){
+    .type1{
+        display: none;
+    }
+    
+    .type2{
+        display: block;
+    }
+
+    ul{
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .type2 .list-unstyled {
+        padding-left: 45%;
+        list-style: none;
+        display: flex;
+    }
+
+  }

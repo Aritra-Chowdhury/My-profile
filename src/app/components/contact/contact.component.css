@@ -1,0 +1,19 @@
+.card{
+    border: none;
+}
+.card-title{
+    text-align: center;
+}
+
+.card-title :hover{
+    color: #000033;
+}
+.card-deck .card {
+    margin-bottom: 0px;
+}
+
+.btn{
+    text-align: center;
+    background-color: #000033;
+    border-radius: 6px;
+}
