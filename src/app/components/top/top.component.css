@@ -19,12 +19,24 @@ ul{
     display: none;
 }
 
+.objective-mobile{
+    display: none;
+}
+
 
 @media (max-width: 450px){
 
     .type2 .list-unstyled {
         padding-left: 41%!important;
     }
+
+}
+
+@media(max-width: 800px){
+    .objective-mobile{
+        display: block;
+    }
+
 
 }
 
